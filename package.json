@@ -4,8 +4,12 @@
   "description": "Portfolio Site (SSG)",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "sass src/scss:public/css --watch",
+    "build:eleventy": "eleventy",
+    "build:sass": "sass src/scss:public/css",
+    "start": "npm-run-all --parallel watch:*",
+    "build": "npm-run-all --parallel build:*"
   },
   "repository": {
     "type": "git",
