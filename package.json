@@ -9,7 +9,7 @@
     "build:eleventy": "eleventy",
     "build:sass": "sass src/scss:public/css",
     "start": "npm-run-all --parallel watch:*",
-    "build": "npm-run-all --parallel build:*"
+    "build": "npm-run-all build:*"
   },
   "repository": {
     "type": "git",
