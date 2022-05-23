@@ -1,0 +1,73 @@
+// Fluid typescale using clamp: https://www.aleksandrhovhannisyan.com/blog/fluid-type-scale-with-css-clamp
+// Typescale calculator: https://www.fluid-type-scale.com/calculate
+
+@use "sass:math";
+@use "sass:list";
+@use "sass:map";
+@use "../abstracts" as *;
+
+$type-base-min: 16px;
+$type-base-max: 18px;
+
+$type-scale-min: 1.25;
+$type-scale-max: 1.3;
+
+$type-steps: "xsm", "sm", "base", "md", "lg", "xl", "xxl", "xxxl";
+
+$type-base-index: list.index($type-steps, "base");
+
+html {
+  @for $i from 1 through length($type-steps) {
+    $step: list.nth($type-steps, $i);
+    $power: $i - $type-base-index;
+    $min: $type-base-min * math.pow($type-scale-min, $power);
+    $max: $type-base-max * math.pow($type-scale-max, $power);
+    --font-size-#{$step}: #{clamped($min, $max)};
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Work Sans';
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+}
+
+p,
+small {
+  font-family: 'Poppins';
+}
+
+h1 {
+  font-size: var(--font-size-xxxl);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+h4 {
+  font-size: var(--font-size-lg);
+}
+
+p.lg {
+  font-size: var(--font-size-md);
+}
+
+p {
+  font-size: var(--font-size-base);
+}
+
+p.sm {
+  font-size: var(--font-size-sm);
+}
+
+small {
+  font-size: var(--font-size-xsm);
+}
