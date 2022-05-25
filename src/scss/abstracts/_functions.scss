@@ -14,7 +14,7 @@
 @function rnd($number, $places: 0) {
   $n: 1;
 
-  @if $places >0 {
+  @if $places > 0 {
     @for $i from 1 through $places {
       $n: $n * 10;
     }
