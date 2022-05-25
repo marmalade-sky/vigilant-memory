@@ -5,8 +5,9 @@
 @use "sass:list";
 @use "sass:map";
 @use "../abstracts" as *;
+@use "colors" as *;
 
-$type-base-min: 16px;
+$type-base-min: 12px;
 $type-base-max: 18px;
 
 $type-scale-min: 1.25;
@@ -16,13 +17,20 @@ $type-steps: "xsm", "sm", "base", "md", "lg", "xl", "xxl", "xxxl";
 
 $type-base-index: list.index($type-steps, "base");
 
-html {
-  @for $i from 1 through length($type-steps) {
-    $step: list.nth($type-steps, $i);
-    $power: $i - $type-base-index;
+:root {
+  @each $step in $type-steps {
+    $power: list.index($type-steps, $step) - $type-base-index;
     $min: $type-base-min * math.pow($type-scale-min, $power);
     $max: $type-base-max * math.pow($type-scale-max, $power);
     --font-size-#{$step}: #{clamped($min, $max)};
+  }
+
+  @each $color, $shades in $colors {
+    @if ($color == 'neutral') {
+      @each $shade, $value in $shades {
+        --txt-#{$shade}: #{$value};
+      }
+    }
   }
 }
 
@@ -30,9 +38,14 @@ h1,
 h2,
 h3,
 h4 {
+  color: var(--txt-600);
   font-family: 'Work Sans';
   font-weight: 700;
   letter-spacing: -0.05rem;
+
+  &.inverse {
+    color: var(--txt-100);
+  }
 }
 
 p,
