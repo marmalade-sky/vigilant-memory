@@ -1,8 +1,6 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets');
-  eleventyConfig.setBrowserSyncConfig({
-    files: './public/css/**/*.css'
-  });
+  // eleventyConfig.addWatchTarget("src/css")
 
   return {
     dir: {

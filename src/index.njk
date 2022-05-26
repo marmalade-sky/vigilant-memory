@@ -2,25 +2,31 @@
 title: My Portfolio site
 layout: "base.njk"
 ---
-<div class="hero">
-    <div class="copy">
-      <h2>
-        Life is complicated.</br>
-        Design shouldn't be.
+<div class="relative min-h-screen grid grid-cols-hero overflow-x-clip z-10">
+    <div class="col-start-2 col-span-1 bg-white py-24">
+      <h1 class="font-hdg text-6xl">
+        <span class="block font-medium text-slate-400">Life is complicated.</span>
+        <span class="block font-bold">Design shouldn't be.</span>
       </h1>
-      <p class="p-6">Great design solves problems; it doesn't create more of them. With a long-standing career in UI/UX design, front-end development, and copywriting, I have made it my passion to translate complex ideas into simple, intuitive experiences. </p>
+      <p class="font-body text-lg">Great design solves problems; it doesn't create more of them. With a long-standing career in UI/UX design, front-end development, and copywriting, I have made it my passion to translate complex ideas into simple, intuitive experiences. </p>
+      <div class="flex space-x-4">
+        <button>View Projects</button>
+        <button>Get in Touch</button>
+      </div>    
     </div>
-    <div class="skills">
+    <div class="col-start-2 col-span-1 bg-white">
       <p> Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</p>
     </div>
-    <div class="divide">
-      <img src="assets/svg/shapes/waves-opacity.svg" class="svg" /> 
+    <div class="relative col-start-3 col-span-1 row-start-1 row-span-2 bg-white z-10">
+      <img src="assets/svg/shapes/waves-opacity.svg" class="h-full absolute top-0 left-full" /> 
     </div>
-    <div class="illustration">
-      <img src="assets/svg/illustration/sitting-with-computer.svg" class="svg" />  
+    <div class="relative col-start-3 col-span-2 row-start-1 row-span-2 bg-slate-300">
+      <img src="assets/svg/illustration/sitting-with-computer.svg" class="absolute bottom-[-2rem] right-[-6rem] z-20" />  
     </div>
 </div>
-<section class="section">
-  <div class="section-content"><p> Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</p>
-  <p> Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</p></div> 
+<section class="grid grid-cols-section">
+  <div class="col-start-2 col-span-1">
+    <p> Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</p>
+    <p> Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</p>
+  </div> 
 </section>
