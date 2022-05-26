@@ -3,21 +3,52 @@ title: My Portfolio site
 layout: "base.njk"
 ---
 <div class="relative lg:min-h-screen grid grid-cols-hero overflow-x-clip z-10">
-    <div class="col-start-2 col-span-1 bg-white py-24">
-      <h1 class="font-hdg text-6xl">
-        <span class="block font-medium text-slate-400">Life is complicated.</span>
-        <span class="block font-bold">Design shouldn't be.</span>
+    <div class="col-start-2 col-span-1 bg-white pt-24 pb-6">
+      <h1 class="text-6xl mb-6">
+        <span class="block font-medium text-gray-500">Life is complicated.</span>
+        <span class="block">Design shouldn't be.</span>
       </h1>
-      <p class="font-body text-lg">Great design solves problems; it doesn't create more of them. With a long-standing career in UI/UX design, front-end development, and copywriting, I have made it my passion to translate complex ideas into simple, intuitive experiences. </p>
+      <p class="text-lg mb-6">Great design solves problems; it doesn't create more of them. With a long-standing career in UI/UX design, front-end development, and copywriting, I have made it my passion to translate complex ideas into simple, intuitive experiences. </p>
       <div class="flex space-x-4">
-        <button>View Projects</button>
-        <button>Get in Touch</button>
+        <button class="btn-f">View Projects</button>
+        <button class="btn-o">Get in Touch</button>
       </div>    
     </div>
     <div class="col-start-2 col-span-1 bg-white">
-      <p> Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</p>
+      <div class="flex border-t border-slate-200 border-solid pt-6">
+        <div class="flex-1">
+          <h4 class="text-xl text-adorn-1 font-semibold mb-1">Creative</h4>
+          <ul class="text-sm space-y-1">
+            <li>UI/UX Design</li>
+            <li>Print Design</li>
+            <li>Design Systems</li>
+            <li>Component Libraries</li>
+            <li>Illustration</li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-xl text-adorn-2 font-semibold mb-1">Technical</h4>
+          <ul class="text-sm space-y-1">
+            <li>HTML</li>
+            <li>Markdown</li>
+            <li>CSS/Sass</li>
+            <li>NPM</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-xl text-adorn-3 font-semibold mb-1">Strategy</h4>
+          <ul class="text-sm space-y-1">
+            <li>Agile</li>
+            <li>Waterfall</li>
+            <li>SDLC</li>
+            <li>Design Thinking</li>
+            <li>UX Research</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="relative hero-divide col-start-3 col-span-2 row-start-1 row-span-2 bg-slate-300 bg-[url('/assets/svg/shapes/waves-opacity.svg')] bg-no-repeat bg-[length:auto_101%]">
+    <div class="relative hero-divide col-start-3 col-span-2 row-start-1 row-span-2 bg-emerald-400 bg-[url('/assets/svg/shapes/waves-opacity.svg')] bg-no-repeat bg-[length:auto_101%]">
       <img src="assets/svg/illustration/sitting-with-computer.svg" class="absolute bottom-[-2rem] right-[-6rem] z-20" />  
     </div>
 </div>

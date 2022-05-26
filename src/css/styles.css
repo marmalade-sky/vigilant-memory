@@ -2,18 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-primary;
+  }
 
-@layer hero {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+    @apply font-secondary;
+  }
+
+  h1, h2, h3, h4 {
+    @apply tracking-tight;
+  }
+
+  .text-adorn-1,
+  .text-adorn-2,
+  .text-adorn-3 {
+    @apply inline-block;
+  }
+
+  .text-adorn-1:before,
+  .text-adorn-2:before,
+  .text-adorn-3:before {
+    content: '';
+    @apply w-1/4;
+    @apply h-1;
+    @apply inline-block;
+  }
+
+  .text-adorn-1:before {
+    @apply bg-pink-500
+  }
+  .text-adorn-2:before {
+    @apply bg-green-500
+  }
+  .text-adorn-3:before {
+    @apply bg-blue-500
+  }
+}
+
+@layer components {
+
+  /* Firefox gap render fix */
+
   @-moz-document url-prefix() {
     .hero-divide:before {
-        content: '';
-        width: 3px;
-        height: 100%;
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgb(255 255 255/var(--tw-bg-opacity));
-      }
+      content: '';
+      width: 3px;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      @apply bg-white;
     }
+  }
+
+  /* Button style */
+
+  .btn-f, 
+  .btn-o {
+    @apply py-3;
+    @apply px-6;
+    @apply rounded;
+    @apply text-xs;
+    @apply font-secondary;
+    @apply font-bold;
+    @apply uppercase;
+    @apply tracking-widest;
+    @apply border-pink-500;
+    @apply border-2;
+    @apply border-solid;
+  }
+
+  .btn-f:disabled, 
+  .btn-o:disabled {
+    @apply bg-slate-200;
+    @apply border-0;
+    @apply text-slate-500;
+  }
+
+  .btn-f {
+    @apply bg-pink-500;
+    @apply text-white;
+  }
+
+  .btn-f:hover {
+    @apply bg-pink-600;
+    @apply border-pink-600;
+  }
+
+  .btn-o {
+    @apply text-pink-500;
+  }
+
+  .btn-o:hover,
+  .btn-o:focus {
+    @apply bg-pink-100;
+  }
+
+  .btn-o:focus {
+    
+    @apply ring-inset;
+  }
 }
+
