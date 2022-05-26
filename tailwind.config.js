@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        'hero': '10% 2fr 6rem 1fr',
+        'hero': '10% 2fr 1.4fr',
         'section': '10% 1fr 10%;'
       }
     },

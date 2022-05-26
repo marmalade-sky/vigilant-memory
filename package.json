@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:eleventy": "eleventy --serve",
-    "watch:postcss": "postcss --use tailwindcss autoprefixer cssnano --dir public/css src/css/*.css --map --watch",
+    "watch:postcss": "postcss --use tailwindcss autoprefixer --dir public/css src/css/*.css --map --watch",
     "build:eleventy": "eleventy",
     "build:postcss": "postcss --use tailwindcss autoprefixer cssnano --dir public/css src/css/*.css --map",
     "start": "npm-run-all --parallel watch:*",
