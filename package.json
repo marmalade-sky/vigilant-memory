@@ -7,7 +7,7 @@
     "watch:eleventy": "eleventy --serve",
     "watch:postcss": "postcss --use tailwindcss autoprefixer cssnano --dir public/css src/css/*.css --map --watch",
     "build:eleventy": "eleventy",
-    "build:postcss": "postcss --use tailwindcss autoprefixer cssnano --dir public/css src/css/*.css",
+    "build:postcss": "postcss --use tailwindcss autoprefixer cssnano --dir public/css src/css/*.css --map",
     "start": "npm-run-all --parallel watch:*",
     "build": "npm-run-all --parallel build:*"
   },
