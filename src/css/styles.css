@@ -77,7 +77,7 @@
     @apply relative
   }
 
-  .grid-cols-section {
+  [class*="grid-cols-section"] {
     @apply relative py-20
   }
 

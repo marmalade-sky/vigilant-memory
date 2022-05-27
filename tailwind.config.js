@@ -14,8 +14,8 @@ module.exports = {
         'hero-slim': 'var(--gutter-slim) 2fr 1.4fr',
         'section': 'var(--gutter) 1fr var(--gutter-slim)',
         'section-slim': 'var(--gutter-slim) 1fr var(--gutter-slim)',
-        'nav': 'var(--gutter) 1fr 1fr 1fr var(--gutter)',
-        'nav-slim': 'var(--gutter-slim) 1fr var(--gutter-slim)',
+        'nav': 'var(--gutter) repeat(3, 1fr) var(--gutter)',
+        'nav-slim': 'var(--gutter-slim) repeat(3, 1fr) var(--gutter-slim)',
       },
       colors: {
         marine : '#18E7A0'
