@@ -10,8 +10,12 @@ module.exports = {
         '3xl': '1600px',
       },
       gridTemplateColumns: {
-        'hero': '10% 2fr 1.4fr',
-        'section': '10% 1fr 10%;'
+        'hero': 'var(--gutter) 2fr 1.4fr',
+        'hero-slim': 'var(--gutter-slim) 2fr 1.4fr',
+        'section': 'var(--gutter) 1fr var(--gutter-slim)',
+        'section-slim': 'var(--gutter-slim) 1fr var(--gutter-slim)',
+        'nav': 'var(--gutter) 1fr 1fr 1fr var(--gutter)',
+        'nav-slim': 'var(--gutter-slim) 1fr var(--gutter-slim)',
       },
       colors: {
         marine : '#18E7A0'

@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --gutter-slim: 5%;
+    --gutter: 10%;
+    --gutter-wide: 20%;
+  }
   body {
     @apply font-primary leading-6;
+    @media (3xl) {
+      color: red!important
+    }
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -21,21 +29,29 @@
     @apply inline-block relative;
   }
 
-  .text-adorn-1:before,
-  .text-adorn-2:before,
-  .text-adorn-3:before {
+  .text-adorn-1::before,
+  .text-adorn-2::before,
+  .text-adorn-3::before {
     content: '';
     @apply w-1/4 h-1 inline-block absolute -top-2 left-0 rounded-sm
   }
 
-  .text-adorn-1:before {
+  .text-adorn-1::before {
     @apply bg-pink-500
   }
-  .text-adorn-2:before {
+  .text-adorn-2::before {
     @apply bg-green-500
   }
-  .text-adorn-3:before {
+  .text-adorn-3::before {
     @apply bg-blue-500
+  }
+
+  [class*="adorn"].text-center {
+    @apply block
+  }
+
+  [class*="adorn"].text-center::before {
+    @apply w-14 left-1/2 -translate-x-1/2
   }
 }
 
@@ -44,9 +60,9 @@
   /* Firefox gap render fix */
 
   @-moz-document url-prefix() {
-    .hero-divide:before {
+    .ff-subpixel-fix::before {
       content: '';
-      width: 3px;
+      width: 2px;
       height: 100%;
       display: block;
       position: absolute;
@@ -54,6 +70,27 @@
       left: 0;
       @apply bg-white;
     }
+  }
+
+  /* Section Styles */
+  .grid-cols-hero {
+    @apply relative
+  }
+
+  .grid-cols-section {
+    @apply relative py-20
+  }
+
+  .divide-t {
+    @apply pt-32
+  }
+
+  .divide-b {
+    @apply pb-32
+  }
+
+  .divide-y {
+    @apply py-32
   }
 
   /* Button style */
