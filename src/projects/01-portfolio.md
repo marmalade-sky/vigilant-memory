@@ -1,6 +1,7 @@
 ---
 title: Personal Portfolio
 tags: ["project", "featured"]
+roles: ["role1", "role2", "role3"]
 image: https://placeimg.com/640/480/computer
 imageAlt: This is a test
 description: Suspendisse vitae dignissim tortor, vel mollis eros. Proin in tortor quis urna lacinia imperdiet. Praesent laoreet vel turpis quis hendrerit. Nulla viverra tristique turpis a mattis. Integer hendrerit nisi ac mattis ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

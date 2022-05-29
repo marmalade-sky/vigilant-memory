@@ -4,9 +4,10 @@
     <div class="space-y-4">
     <img src="{{project.data.image}}" class="w-full rounded" alt="{{project.data.imageAlt}}" />
     <div class="flex flex-wrap gap-3">
-      <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">#Design</span>
-      <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">#Illustration</span>
-      <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">#Front-End Development</span>
+      {% for role in project.data.roles %}
+        <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">{{project.data.roles}}</span>
+      {% endfor %}
+      
     </div>
     <div class="space-y-1">
       <h3 class="text-2xl font-semibold">{{project.data.title}}</h3>
