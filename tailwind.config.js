@@ -1,5 +1,10 @@
 module.exports = {
-  content: ["./src/**/*.njk"],
+  content: ['./src/**/*.{njk,md}'],
+  // transform: {
+  //   md: (content) => {
+  //     return remark().process(content)
+  //   }
+  // },
   theme: {
     fontFamily: {
       'primary': ['Poppins', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
@@ -12,7 +17,7 @@ module.exports = {
       gridTemplateColumns: {
         'hero': 'var(--gutter) 2fr 1.4fr',
         'hero-slim': 'var(--gutter-slim) 2fr 1.4fr',
-        'section': 'var(--gutter) 1fr var(--gutter-slim)',
+        'section': 'var(--gutter) 1fr var(--gutter)',
         'section-slim': 'var(--gutter-slim) 1fr var(--gutter-slim)',
         'nav': 'var(--gutter) repeat(3, 1fr) var(--gutter)',
         'nav-slim': 'var(--gutter-slim) repeat(3, 1fr) var(--gutter-slim)',
@@ -22,5 +27,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
+  ],
 }

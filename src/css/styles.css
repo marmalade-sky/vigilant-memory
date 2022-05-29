@@ -89,10 +89,6 @@
     @apply pb-32
   }
 
-  .divide-y {
-    @apply py-32
-  }
-
   /* Button style */
 
   .btn-f, 
