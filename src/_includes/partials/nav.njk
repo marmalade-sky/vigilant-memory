@@ -1,0 +1,7 @@
+<ul class="flex justify-end md:justify-center gap-5 md:gap-16">
+  {% for page in collections.pages %}
+      <li>
+      <a href="{{page.url}}">{{page.data.title}}</a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+{{content | safe}}
+{{roles}}
+{% if quote.length > 0 %}
+  <div class="p-20 bg-slate-200">
+    {{quote}}
+  </div>
+{% endif %}
+
+{% for detail in details %}
+<p>
+  {{detail.copy}}
+</p>
+{% endfor %}

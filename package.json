@@ -8,7 +8,8 @@
     "watch:postcss": "postcss --use tailwindcss autoprefixer --dir public/css src/css/*.css --map --watch",
     "build:eleventy": "eleventy",
     "build:postcss": "postcss --use tailwindcss autoprefixer cssnano --dir public/css src/css/*.css --map",
-    "start": "npm-run-all --parallel watch:*",
+    "delete": "del public",
+    "start": "npm-run-all --parallel  watch:*",
     "build": "npm-run-all --parallel build:*"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.7",
     "cssnano": "^5.1.9",
+    "del-cli": "^4.0.1",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
