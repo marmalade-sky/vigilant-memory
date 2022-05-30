@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.034" height="45.382" viewBox="0 0 36.034 45.382">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.499" y1="0.907" x2="0.499" y2="0.363" gradientUnits="objectBoundingBox">
+      <stop offset="0.18" stop-color="#0052cc"/>
+      <stop offset="1" stop-color="#2684ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Sourcetree" transform="translate(-0.274)">
+    <path id="Path_357" data-name="Path 357" d="M36.281,17.993A18,18,0,1,0,12.727,35.1v9.016a1.265,1.265,0,0,0,1.265,1.265h8.541A1.265,1.265,0,0,0,23.8,44.117V35.107A18,18,0,0,0,36.281,17.993Zm-17.993,6.08a6.083,6.083,0,1,1,6.083-6.083A6.083,6.083,0,0,1,18.288,24.073Z" transform="translate(0 0)" fill="#2684ff"/>
+    <path id="Path_358" data-name="Path 358" d="M127.941,0V11.913a6.083,6.083,0,1,1,0,12.166,5.561,5.561,0,0,1,5.561,5.561v5.473A17.993,17.993,0,0,0,127.941,0Z" transform="translate(-109.653 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

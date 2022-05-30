@@ -1,16 +1,20 @@
 ---
 layout: layouts/base.njk
 ---
-{{content | safe}}
-{{roles}}
+{% for role in roles %}
+  <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">{{role}}</span>
+{% endfor %}  
+
+
+{% for detail in details %}
+<p>
+  <img src="{{detail.image}}" alt="">
+  {{detail.copy}}
+</p>
+{% endfor %}
+
 {% if quote.length > 0 %}
   <div class="p-20 bg-slate-200">
     {{quote}}
   </div>
 {% endif %}
-
-{% for detail in details %}
-<p>
-  {{detail.copy}}
-</p>
-{% endfor %}

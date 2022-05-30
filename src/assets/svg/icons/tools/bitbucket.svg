@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.797" height="44.778" viewBox="0 0 49.797 44.778">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.086" y1="0.138" x2="0.469" y2="0.788" gradientUnits="objectBoundingBox">
+      <stop offset="0.18" stop-color="#0052cc"/>
+      <stop offset="1" stop-color="#2684ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Bitbucket" transform="translate(0)">
+    <path id="Path_328" data-name="Path 328" d="M89.825,91.893h10.4l2.509-14.651H87.06Z" transform="translate(-70.125 -62.217)" fill="none"/>
+    <path id="Path_329" data-name="Path 329" d="M1.616,0a1.6,1.6,0,0,0-1.6,1.851L6.794,42.967a2.17,2.17,0,0,0,2.122,1.811H41.408a1.6,1.6,0,0,0,1.6-1.34L49.776,1.859a1.6,1.6,0,0,0-1.6-1.851Zm28.52,29.716H19.765L16.957,15.046H32.649Z" transform="translate(0 0)" fill="#2684ff"/>
+    <path id="Path_330" data-name="Path 330" d="M78.682,77.242H63.72L61.209,91.9H50.846L38.611,106.424a2.16,2.16,0,0,0,1.395.526H72.48a1.594,1.594,0,0,0,1.594-1.339Z" transform="translate(-31.1 -62.217)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

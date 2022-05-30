@@ -8,8 +8,8 @@
     "watch:postcss": "postcss --use tailwindcss autoprefixer --dir public/css src/css/*.css --map --watch",
     "build:eleventy": "eleventy",
     "build:postcss": "postcss --use tailwindcss autoprefixer cssnano --dir public/css src/css/*.css --map",
-    "delete": "del public",
-    "start": "npm-run-all --parallel  watch:*",
+    "delete": "del-cli public",
+    "start": "npm-run-all --parallel delete watch:*",
     "build": "npm-run-all --parallel build:*"
   },
   "repository": {

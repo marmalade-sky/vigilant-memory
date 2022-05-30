@@ -1,3 +1,14 @@
 ---
 title: About
 ---
+{# <section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-50">
+  <div class="col-start-2 col-span-1">
+    {% include "areas/skills.njk" %}
+  </div>
+</section> #}
+<section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-100">
+  <div class="col-start-2 col-span-1">
+    {% include "areas/hobbies.njk" %}
+    {{content | safe}}
+  </div>
+</section>

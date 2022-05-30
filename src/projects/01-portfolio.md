@@ -6,7 +6,7 @@ mainImage: https://placeimg.com/640/480/computer
 mainImageAlt: This is a test
 eyecatchImage: https://placeimg.com/640/480/computer
 eyecatchImageAlt: This is a test
-teaser: "Suspendisse vitae dignissim tortor, vel mollis eros. Proin in tortor quis urna lacinia imperdiet. Praesent laoreet vel turpis quis hendrerit. Nulla viverra tristique turpis a mattis. Integer hendrerit nisi ac mattis ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+teaser: "Suspendisse vitae dignissim tortor, vel mollis eros. Proin in tortor quis urna lacinia imperdiet. Praesent laoreet vel turpis quis hendrerit. Nulla viverra tristique turpis a mattis. Integer hendrerit nisi ac mattis ultrices."
 quote: "Approaching its 25th anniversary, OPO reached out to us during a pandemic at a time when social distancing was in force and classical music, an industry that thrives on people coming together, was facing an unprecedented and uphill challenge to return to its former ways. The visual brand identity and web experience were seen as fundamental components to address to help reduce the pressure of these stifling external market forces."
 
 details: [
@@ -23,7 +23,4 @@ details: [
     copy: "Ultrices dui sapien eget mi proin sed libero enim sed. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Vestibulum lectus mauris ultrices eros in cursus. Duis ut diam quam nulla porttitor massa id neque aliquam. Ipsum faucibus vitae aliquet nec ullamcorper. Lacinia at quis risus sed vulputate odio. "
   }
 ]
-
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Suspendisse vitae dignissim tortor, vel mollis eros. Proin in tortor quis urna lacinia imperdiet. Praesent laoreet vel turpis quis hendrerit. Nulla viverra tristique turpis a mattis. Integer hendrerit nisi ac mattis ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

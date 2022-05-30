@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.21" height="46.815" viewBox="0 0 31.21 46.815">
+  <g id="Figma" transform="translate(0)">
+    <path id="path0_fill" d="M7.8,215.6a7.805,7.805,0,0,0,7.8-7.8V200H7.8a7.8,7.8,0,1,0,0,15.6Z" transform="translate(0 -168.79)" fill="#0acf83"/>
+    <path id="path1_fill" d="M0,107.8A7.805,7.805,0,0,1,7.8,100h7.8v15.6H7.8A7.805,7.805,0,0,1,0,107.8Z" transform="translate(0 -84.395)" fill="#a259ff"/>
+    <path id="path1_fill_1_" d="M0,7.8A7.805,7.805,0,0,1,7.8,0h7.8V15.6H7.8A7.805,7.805,0,0,1,0,7.8Z" transform="translate(0)" fill="#f24e1e"/>
+    <path id="path2_fill" d="M100,0h7.8a7.8,7.8,0,1,1,0,15.6H100Z" transform="translate(-84.395)" fill="#ff7262"/>
+    <path id="path3_fill" d="M115.6,107.8a7.8,7.8,0,1,1-7.8-7.8A7.805,7.805,0,0,1,115.6,107.8Z" transform="translate(-84.395 -84.395)" fill="#1abcfe"/>
+  </g>
+</svg>

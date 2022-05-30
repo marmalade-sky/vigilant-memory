@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.899" height="45.382" viewBox="0 0 43.899 45.382">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.918" y1="1.952" x2="0.282" y2="1.538" gradientUnits="objectBoundingBox">
+      <stop offset="0.18" stop-color="#0052cc"/>
+      <stop offset="1" stop-color="#2684ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.087" y1="-0.233" x2="0.722" y2="0.179" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Jira" transform="translate(-0.002)">
+    <path id="Path_348" data-name="Path 348" d="M43.37,21.421,23.842,1.892,21.949,0,7.249,14.7.527,21.421a1.8,1.8,0,0,0,0,2.541l13.43,13.43,7.993,7.991,14.7-14.7.229-.227,6.493-6.483a1.8,1.8,0,0,0,0-2.551ZM21.949,29.4l-6.71-6.71,6.71-6.71,6.708,6.71Z" transform="translate(0 0)" fill="#2684ff"/>
+    <path id="Path_349" data-name="Path 349" d="M50.351,16.2A11.3,11.3,0,0,1,50.3.27L35.62,14.946l7.991,7.991Z" transform="translate(-28.402 -0.215)" fill="url(#linear-gradient)"/>
+    <path id="Path_350" data-name="Path 350" d="M115.056,111.91l-6.726,6.728a11.3,11.3,0,0,1,0,15.977L123.053,119.9Z" transform="translate(-86.381 -89.237)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
