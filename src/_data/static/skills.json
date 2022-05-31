@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Creative",
+    "description": "Intuitive design, clear messaging, and a delightful experience is top of mind when I am in the creative zone.",
+    "heading": "Deliverables",
+    "list": ["UI / UX Design", "Print Design", "Design Systems", "Copywriting", "Illustration"],
+    "icons": [
+      {
+        "name": "Adobe Illustrator",
+        "icon": "illustrator.svg"
+      },
+      {
+        "name": "Adobe Photoshop",
+        "icon": "photoshop.svg"
+      },
+      {
+        "name": "Adobe XD",
+        "icon": "xd.svg"
+      },
+      {
+        "name": "Axure",
+        "icon": "axure.svg"
+      },
+      {
+        "name": "Figma",
+        "icon": "figma.svg"
+      }
+    ]
+  },
+  {
+    "name": "Technical",
+    "description": "I use technology that makes sense for each project and strive for as little bloat as possible. I love working with full-stack engineers.",
+    "heading": "Languages",
+    "list": ["HTML", "Nunjucks", "CSS", "Sass", "JavaScript"],
+    "icons": [
+      {
+        "name": "Visual Studio",
+        "icon": "vs.svg"
+      },
+      {
+        "name": "Visual Studio Code",
+        "icon": "vscode.svg"
+      },
+      {
+        "name": "NPM",
+        "icon": "npm.svg"
+      },
+      {
+        "name": "Github",
+        "icon": "github.svg"
+      },
+      {
+        "name": "Sourcetree",
+        "icon": "sourcetree.svg"
+      },
+      {
+        "name": "Bitbucket",
+        "icon": "bitbucket.svg"
+      }
+    ]
+  },
+  {
+    "name": "Strategy",
+    "description": "Understanding how to deliver a product and collaborate with a team is just as important as the deliverables themselves.          .",
+    "heading": "Methodologies",
+    "list": ["Agile & Waterfall", "Atomic Design", "SDLC", "Design Thinking", "UX Research Methods"],
+    "icons": [
+      {
+        "name": "Confluence",
+        "icon": "confluence.svg"
+      },
+      {
+        "name": "Jira",
+        "icon": "jira.svg"
+      },
+      {
+        "name": "Lucid Charts",
+        "icon": "lucidchart.svg"
+      },
+      {
+        "name": "Slack",
+        "icon": "slack.svg"
+      },
+      {
+        "name": "Gotomeeting",
+        "icon": "gotomeeting.svg"
+      }
+    ]
+  }
+]

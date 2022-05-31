@@ -19,8 +19,12 @@
     @apply font-bold font-secondary leading-4;
   }
 
-  h1, h2, h3, h4 {
+  h1, h2, h3 {
     @apply tracking-tight;
+  }
+
+  h3, h4, h5, h6 {
+    @apply font-semibold;
   }
 
   .text-adorn-1,

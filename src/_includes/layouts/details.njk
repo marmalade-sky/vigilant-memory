@@ -5,7 +5,6 @@ layout: layouts/base.njk
   <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">{{role}}</span>
 {% endfor %}  
 
-
 {% for detail in details %}
 <p>
   <img src="{{detail.image}}" alt="">
@@ -18,5 +17,5 @@ layout: layouts/base.njk
     {{quote}}
   </div>
 {% endif %}
-
-{{templateContent | safe}}
+ 
+ {{content | safe}}
