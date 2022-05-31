@@ -1,0 +1,47 @@
+[
+  {
+    "title": "BBQ",
+    "text": "My favorite summertime activity is grilling brats on my friend Phill's deck.",
+    "image": "bbq.svg"
+  },
+  {
+    "title": "Beer",
+    "text": "Favorite breweries include Dovetail, Spiteful, Hop Butcher, Pipeworks.",
+    "image": "beer.svg"
+  },
+  {
+    "title": "Coffee",
+    "text": "I bought a Comandante in 2020 and it changed my entire coffee life!",
+    "image": "coffee.svg"
+  },
+  {
+    "title": "Cooking",
+    "text": "Food brings me so much happiness. I always swap recipes with friends.",
+    "image": "cooking.svg"
+  },
+  {
+    "title": "Letters",
+    "text": "I have a small typewriter collection and enjoy sending snail mail to pen pals.",
+    "image": "letters.svg"
+  },
+  {
+    "title": "Sketching",
+    "text": "Art classes at the Lillstreet Art Center rock and am hyped to take a more!",
+    "image": "sketching.svg"
+  },
+  {
+    "title": "Thrifting",
+    "text": "The Village Discount is my favorite spot. Nearly all my clothes are thrifted. ",
+    "image": "thrifting.svg"
+  },
+  {
+    "title": "Writing",
+    "text": "I enjoy journaling, writing essays, memoir vignettes, and short stories.",
+    "image": "writing.svg"
+  },
+  {
+    "title": "Zines",
+    "text": "I've been writing and publishing zines for well-over ten years.",
+    "image": "zines.svg"
+  }
+]

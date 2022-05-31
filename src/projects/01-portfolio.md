@@ -1,4 +1,5 @@
 ---
+templateEngineOverride: njk, md
 title: Personal Portfolio
 tags: ["project", "featured"]
 roles: ["Design", "Illustration", "Front-End Development", "Deployment"]
