@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Photo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 221.2 208.6" style="enable-background:new 0 0 221.2 208.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#207FDF;}
+	.st2{fill:#18E7A0;}
+	.st3{fill:#DF207F;}
+	.st4{fill:#AFAFAF;}
+	.st5{fill:none;stroke:#666666;stroke-miterlimit:10;stroke-dasharray:0,0,1,1;}
+</style>
+<g id="Photo_Embellishment">
+	<g id="Outline_Circles" transform="translate(-150 -297)">
+		<g id="Ellipse_5" transform="translate(1480 770)">
+			<circle class="st0" cx="-1169.5" cy="-325.1" r="59.7"/>
+			<circle class="st1" cx="-1169.5" cy="-325.1" r="59.5"/>
+		</g>
+		<g id="Ellipse_6">
+			<circle class="st0" cx="310.5" cy="444.9" r="46.9"/>
+			<circle class="st1" cx="310.5" cy="444.9" r="46.7"/>
+		</g>
+		<g id="Ellipse_7" transform="translate(1548 838)">
+			<circle class="st0" cx="-1237.5" cy="-393.1" r="35.5"/>
+			<circle class="st1" cx="-1237.5" cy="-393.1" r="35.3"/>
+		</g>
+		<g id="Ellipse_8" transform="translate(1594 884)">
+			<circle class="st0" cx="-1283.5" cy="-439.1" r="19.2"/>
+			<circle class="st1" cx="-1283.5" cy="-439.1" r="19"/>
+		</g>
+	</g>
+	<circle id="Large_Circle" class="st2" cx="178.3" cy="72.6" r="41.9"/>
+	<circle id="Small_Circle" class="st3" cx="173.6" cy="120.2" r="19.2"/>
+	<g id="Photo_Clip">
+		<circle class="st4" cx="90.5" cy="90.5" r="89"/>
+		<path class="st5" d="M90.5,1.5c49.1,0,89,39.8,89,89c-4.7,118.1-173.3,118-178,0C1.5,41.3,41.3,1.5,90.5,1.5L90.5,1.5z"/>
+	</g>
+</g>
+</svg>

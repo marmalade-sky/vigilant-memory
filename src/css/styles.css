@@ -44,7 +44,7 @@
     @apply bg-pink-500
   }
   .text-adorn-2::before {
-    @apply bg-green-500
+    @apply bg-marine
   }
   .text-adorn-3::before {
     @apply bg-blue-500
@@ -86,18 +86,18 @@
   }
 
   .divide-t {
-    @apply pt-32
+    @apply pt-48 -mt-4
   }
 
   .divide-b {
-    @apply pb-32
+    @apply pb-48
   }
 
   /* Button style */
 
   .btn-f, 
   .btn-o {
-    @apply py-3 px-6 rounded text-xs font-secondary font-bold uppercase tracking-widest border-pink-500 border-2 border-solid;
+    @apply inline-block py-3 px-6 rounded text-xs font-secondary font-bold uppercase tracking-widest border-pink-500 border-2 border-solid;
   }
 
   .btn-f:disabled, 

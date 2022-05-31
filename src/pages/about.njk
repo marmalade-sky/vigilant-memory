@@ -3,12 +3,14 @@ title: About
 order: 2
 ---
 <section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-100">
-
+  <div class="col-start-2 col-span-1">
+    {% include "partials/bio.njk" %}
+  </div>
 </section>
-<section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-50">
+<section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-50 divide-t">
   {%- from 'macros/divide.njk' import divide %}
   {{ divide({text: "top-0"}, { text: "fill-marine" }, { text: "fill-slate-100" }, {text: "rotate-0"}) }} 
-  <div class="col-start-2 col-span-1 lg:pt-24">
+  <div class="col-start-2 col-span-1">
     {% include "areas/skills.njk" %}
   </div>
 </section>
