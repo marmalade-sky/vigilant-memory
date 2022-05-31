@@ -63,7 +63,7 @@
     "name": "Strategy",
     "description": "Understanding how to deliver a product and collaborate with a team is just as important as the deliverables themselves.          .",
     "heading": "Methodologies",
-    "list": ["Agile & Waterfall", "Atomic Design", "SDLC", "Design Thinking", "UX Research Methods"],
+    "list": ["Agile & Waterfall", "Atomic Design", "SDLC", "Design Thinking", "UX Research"],
     "icons": [
       {
         "name": "Confluence",
