@@ -2,7 +2,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-14">
   {% for project in collections.featured %}
     <div class="space-y-4">
-    <img src="{{project.data.mainImage}}" class="w-full rounded" alt="{{project.data.mainImageAlt}}" />
+    <img src="{{project.data.mainImg}}" class="w-full rounded" alt="{{project.data.mainImageAlt}}" />
     <div class="flex flex-wrap gap-3">
       {% for role in project.data.roles %}
         <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">{{role}}</span>
@@ -10,7 +10,7 @@
     </div>
     <div class="space-y-1">
       <h3 class="text-2xl font-semibold">{{project.data.title}}</h3>
-      <p class="text-base">{{project.data.teaser}}</p>
+      <p class="text-base">{{project.data.description | truncate(200)}}</p>
     </div>
     <a href="{{project.url}}" class="flex items-center space-x-2 text-pink-500 group">
       <svg class="h-4 w-4 ease-in-out duration-300 group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">

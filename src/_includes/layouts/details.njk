@@ -1,6 +1,37 @@
 ---
 layout: layouts/base.njk
 ---
+<section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-100">
+  <div class="grid grid-cols-2 col-start-2 col-span-1 gap-10">
+    <div>
+      <h1 class="text-4xl text-adorn-1 mb-6">
+        {{title}}
+      </h1>
+      <p class="text-base">
+        {{description}}
+      </p>
+      <h2 class="text-2xl">
+        Project Roles
+      </h2>
+      <ul>
+        {% for role in roles %}
+          <li>{{role}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <img src="{{mainImg}}" alt="mainImgAlt" />
+    </div>
+  </div>
+</section>
+<section class="grid grid-cols-section-slim lg:grid-cols-section bg-blue-500">
+  <div class="grid-cols-2 col-start-2">
+    <p class="text-lg text-slate-50">
+      {{quote}}
+    </p>
+  </div>
+</section>
+
 {% for role in roles %}
   <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">{{role}}</span>
 {% endfor %}  
