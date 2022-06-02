@@ -8,7 +8,7 @@ layout: layouts/base.njk
     {% include "areas/featured.njk" %}
   </div>
 </section>
-<section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-200 divide-t">
+<section class="grid grid-cols-section-slim lg:grid-cols-section lg:divide-t bg-slate-200">
   {%- from 'macros/divide.njk' import divide %}
   {{ divide({text: "top-0"}, { text: "fill-marine" }, { text: "fill-slate-100" }, {text: "rotate-0"}) }} 
   <div class="col-start-2 col-span-1">

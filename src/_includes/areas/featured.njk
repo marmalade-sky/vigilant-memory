@@ -5,7 +5,7 @@
     <img src="{{project.data.mainImg}}" class="w-full rounded" alt="{{project.data.mainImageAlt}}" />
     <div class="flex flex-wrap gap-3">
       {% for role in project.data.roles %}
-        <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">{{role}}</span>
+        <span class="text-xs uppercase text-slate-500 lg:py-2 lg:px-4 lg:bg-slate-200 lg:rounded">#{{role}}</span>
       {% endfor %}     
     </div>
     <div class="space-y-1">

@@ -27,6 +27,21 @@
     @apply font-semibold;
   }
 
+  .nav-animation::after {
+    content: '';
+    animation: linegrow 250ms;
+    @apply absolute -bottom-1 left-1/2 -translate-x-1/2 inline-block bg-pink-500 w-full h-0.5
+  }
+
+  @keyframes linegrow {
+    from {
+      @apply scale-x-0
+    }
+    to {
+      @apply scale-x-100
+    }
+  }
+
   .text-adorn-1,
   .text-adorn-2,
   .text-adorn-3 {
@@ -81,8 +96,16 @@
     @apply relative
   }
 
-  [class*="grid-cols-section"] {
+  /* [class*="grid-cols-section"] {
     @apply relative py-20
+  } */
+
+  .grid-cols-section {
+    @apply relative py-20
+  }
+
+  .grid-cols-section-slim {
+    @apply relative py-14
   }
 
   .divide-t {

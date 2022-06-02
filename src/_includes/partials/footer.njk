@@ -1,15 +1,15 @@
 <footer class="relative flex justify-center bg-zinc-900 py-20 lg:py-32 overflow-hidden">
   <img src="{{illustrationSrc}}/standing-with-computer.svg" class="hidden lg:block absolute h-5/6 -bottom-1 left-10" /> 
-  <div class="px-10 md:10/12 lg:w-8/12 xl:w-5/12 3xl:w-1/3">
+  <div class="px-10 md:10/12 lg:w-7/12 xl:w-5/12 3xl:w-1/3">
     <h3 class="text-4xl text-slate-200 text-center text-adorn-3 mb-6">Get in Touch</h3>
     <p class="text-base text-slate-200 text-center mb-6">I am open to new full-time opportunities where I can truly make a difference with a diverse design and front-end skillset. If you have a role for consideration, let's set up a time to talk!</p>
     <ul class="flex justify-center gap-5">
       {% for item in static.social %}
         <li>
-          <a href="{{item.url}}">
+          <a href="{{item.url}}" class="group">
             <svg id="{{item.name}}_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="{{item.viewbox}}" class="h-8">
               <g id="{{item.name}}_Group">
-                <path id="{{item.name}}_Path" d="{{item.d}}" class="fill-slate-200"/>
+                <path id="{{item.name}}_Path" d="{{item.d}}" class="fill-slate-200 group-hover:fill-blue-500"/>
               </g>
             </svg>
           </a>
