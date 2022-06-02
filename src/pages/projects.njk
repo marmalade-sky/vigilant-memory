@@ -2,3 +2,23 @@
 title: Projects
 order: 1
 ---
+
+<section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-100">
+  <div class="col-start-2 col-span-1">
+    {% include "areas/featured.njk" %}
+  </div>
+</section>
+{% if collections.projects.length > 0 %}
+  <section class="grid grid-cols-section-slim lg:grid-cols-section lg:divide-t bg-white">
+    {%- from 'macros/divide.njk' import divide %}
+    {{ divide({text: "top-0"}, { text: "fill-marine" }, { text: "fill-slate-100" }, {text: "rotate-0"}) }} 
+    <div class="col-start-2 col-span-1">
+      {% include "areas/projects.njk" %}
+    </div>
+  </section>
+{% endif %}
+<section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-200"> 
+  <div class="col-start-2 col-span-1">
+    {% include "areas/dribbble.njk" %}
+  </div>
+</section>

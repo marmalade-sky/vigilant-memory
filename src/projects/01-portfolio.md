@@ -1,6 +1,6 @@
 ---
 title: Personal Portfolio
-tags: ["project", "featured"]
+tags: ["featured"]
 roles: ["Design", "Illustration", "Front-End Development", "Deployment"]
 mainImg: https://placeimg.com/640/480/computer
 mainImgAlt: This is a test

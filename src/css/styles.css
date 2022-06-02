@@ -109,7 +109,7 @@
   }
 
   .divide-t {
-    @apply pt-48 -mt-4
+    @apply pt-[12.5%] -mt-4
   }
 
   .divide-b {

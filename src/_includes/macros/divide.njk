@@ -1,5 +1,5 @@
 {%- macro divide(position, color1, color2, orientation) -%}
-  <svg id="Divide" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160" class="hidden lg:block absolute width-full left-0 {{position.text}} {{orientation.text}}">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160" class="hidden w-full lg:block absolute left-0 {{position.text}} {{orientation.text}}">
     <path id="PageColor" d="M0,160L1112.21,56.48v-16.48H0v120Z" class="{{color1.text}}"/>
     <path id="AccentColor" d="M0,120L1920,16.48V0H0V120Z" class="{{color2.text}}"/>
   </svg>
