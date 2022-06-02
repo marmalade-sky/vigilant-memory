@@ -3,7 +3,7 @@
   {% for shot in dribbble %}
     <div class="space-y-4">
       <a href="{{shot.html_url}}" target="_blank">
-        <img src="{{shot.images.normal}}" alt="shot.title" class="w-full rounded" />
+        <img src="{{shot.images.normal}}" alt="shot.title" class="w-full rounded shadow-lg" />
       </a>
       <h3 class="text-xl font-semibold line-clamp-1">{{shot.title}}</h3>
       <div class="line-clamp-3">

@@ -1,6 +1,6 @@
 ---
 title: Black Beer Project
-tags: ["featured"]
+featured: false
 roles: ["Design","Front-End Development"]
 mainImg: https://placeimg.com/640/480/computer
 mainImgAlt: This is a test
