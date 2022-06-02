@@ -2,51 +2,69 @@
 layout: layouts/base.njk
 ---
 <section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-100">
-  <div class="grid grid-cols-2 col-start-2 col-span-1 gap-10">
-    <div>
-      <h1 class="text-4xl text-adorn-1 mb-6">
-        {{title}}
-      </h1>
-      <p class="text-base">
-        {{description}}
-      </p>
-      <h2 class="text-2xl">
-        Project Roles
-      </h2>
-      <ul>
-        {% for role in roles %}
-          <li>{{role}}</li>
-        {% endfor %}
-      </ul>
+  <div class="grid grid-cols-2 col-start-2 col-span-1 gap-12">
+    <div class="space-y-6">
+      <div class="space-y-3">
+        <h1 class="text-4xl text-adorn-1">
+          {{title}}
+        </h1>
+        <p class="text-base">
+          {{content | safe}}
+        </p>
+      </div>
+      <div class="space-y-3">
+        <h2 class="text-2xl">
+          Project Roles
+        </h2>
+        <ul class="text-base space-y-1">
+          {% for role in roles %}
+            <li>{{role}}</li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-    <div>
-      <img src="{{mainImg}}" alt="mainImgAlt" class="rounded shadow-xl" />
+    <div class="flex items-center justify-center">
+      <img src="{{mainImg}}" alt="mainImgAlt" class="rounded shadow-lg" />
     </div>
   </div>
 </section>
-<section class="grid grid-cols-section-slim lg:grid-cols-section bg-blue-500">
-  <div class="grid-cols-2 col-start-2">
-    <p class="text-lg text-slate-50">
-      {{quote}}
-    </p>
-  </div>
-</section>
-
-{% for role in roles %}
-  <span class="text-xs uppercase text-slate-500 py-2 px-4 bg-slate-200 rounded">{{role}}</span>
-{% endfor %}  
-
-{% for detail in details %}
-<p>
-  <img src="{{detail.image}}" alt="">
-  {{detail.copy}}
-</p>
-{% endfor %}
-
 {% if quote.length > 0 %}
-  <div class="p-20 bg-slate-200">
-    {{quote}}
-  </div>
+  <section class="grid grid-cols-section-slim lg:grid-cols-section lg:divide-t lg:divide-b bg-gradient-to-b from-blue-400 to-blue-600">
+    {%- from 'macros/divide.njk' import divide %}
+    {{ divide({text: "top-0"}, { text: "fill-marine" }, { text: "fill-slate-100" }, {text: "rotate-0"}) }} 
+    <div class="col-start-2 px-24 lg:-mb-8">
+      <p class="relative text-xl text-slate-50">
+        <svg id="Quotation_Marks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.02 3.77" class="absolute -left-12 -top-2 w-8 fill-slate-50">
+          <g id="Quotation_Marks_Group">
+            <path d="M1.43,0c.26,0,.48,.22,.48,.47,0,.14-.06,.26-.16,.36-.29,.25-.55,.59-.62,.88,.05-.01,.16-.04,.28-.04,.5,0,.92,.4,.92,.98s-.5,1.12-1.1,1.12c-.65,0-1.22-.52-1.22-1.39S.41,.74,1.12,.12c.08-.08,.19-.12,.31-.12Zm2.7,0c.26,0,.48,.22,.48,.47,0,.14-.06,.26-.16,.36-.29,.25-.54,.59-.62,.88,.05-.01,.16-.04,.28-.04,.52,0,.92,.4,.92,.98s-.5,1.12-1.09,1.12c-.65,0-1.24-.52-1.24-1.39S3.11,.74,3.83,.12c.08-.08,.18-.12,.3-.12Z"/>
+          </g>
+        </svg>
+        {{quote}}
+      </p>
+    </div>
+    {%- from 'macros/divide.njk' import divide %}
+    {{ divide({text: "bottom-0"}, { text: "fill-marine" }, { text: "fill-white" }, {text: "rotate-180"}) }} 
+  </section>
 {% endif %}
- 
- {{content | safe}}
+<section class="grid grid-cols-section-slim lg:grid-cols-section bg-white">
+  <div class="col-start-2">
+    {% for detail in details %}
+      <div class="flex items-center gap-12 even:flex-row-reverse mb-24">
+        <div class="basis-5/12">
+          <img src="{{detail.img}}" alt="detail.imgAlt" class="rounded shadow-lg">
+        </div>
+        <div class="basis-7/12 space-y-3">
+          <h3 class="text-2xl">{{detail.title}}</h3>
+          <p>
+            {{detail.text | safe}}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<section class="relative bg-pink-500 h-[640px] -mt-24 overflow-hidden">
+  {%- from 'macros/divide.njk' import divide %}
+  {{ divide({text: "top-0"}, { text: "fill-pink-500" }, { text: "fill-white" }, {text: "rotate-0"}) }} 
+  <img src="{{eyecatchImg}}" alt="{{mainImgAlt}}" class="w-full">
+</section>

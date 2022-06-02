@@ -1,5 +1,5 @@
 <h2 class="text-4xl text-adorn-3 mb-6">Other Projects</h2>
-<div class="grid grid-cols-2 md:grid-cols-3 gap-14">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-12">
   {% for project in collections.projects %}
     {% if project.data.featured == false %}
       {% include "../partials/project-snippet.njk" %}

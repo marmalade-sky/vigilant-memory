@@ -113,7 +113,7 @@
   }
 
   .divide-b {
-    @apply pb-48
+    @apply pb-[12.5%] -mb-2
   }
 
   /* Button style */
