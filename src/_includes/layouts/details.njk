@@ -2,8 +2,8 @@
 layout: layouts/base.njk
 ---
 <section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-100">
-  <div class="grid grid-cols-2 col-start-2 col-span-1 gap-12">
-    <div class="space-y-6">
+  <div class="grid grid-flow-row-dense md:grid-flow-row-auto lg:grid-cols-2 col-start-2 col-span-1 gap-16 md:gap-12">
+    <div class="row-start-2 md:row-start-1 space-y-6">
       <div class="space-y-3">
         <h1 class="text-4xl text-adorn-1">
           {{title}}
@@ -32,9 +32,9 @@ layout: layouts/base.njk
   <section class="grid grid-cols-section-slim lg:grid-cols-section lg:divide-t lg:divide-b bg-gradient-to-b from-blue-400 to-blue-600">
     {%- from 'macros/divide.njk' import divide %}
     {{ divide({text: "top-0"}, { text: "fill-marine" }, { text: "fill-slate-100" }, {text: "rotate-0"}) }} 
-    <div class="col-start-2 px-24 lg:-mb-8">
-      <p class="relative text-xl text-slate-50">
-        <svg id="Quotation_Marks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.02 3.77" class="absolute -left-12 -top-2 w-8 fill-slate-50">
+    <div class="col-start-2 px-8 md:px-24 lg:-mb-8">
+      <p class="relative md:text-xl text-slate-50">
+        <svg id="Quotation_Marks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.02 3.77" class="absolute -left-6 md:-left-12 -top-1 md:-top-2 w-4 md:w-8 fill-slate-50">
           <g id="Quotation_Marks_Group">
             <path d="M1.43,0c.26,0,.48,.22,.48,.47,0,.14-.06,.26-.16,.36-.29,.25-.55,.59-.62,.88,.05-.01,.16-.04,.28-.04,.5,0,.92,.4,.92,.98s-.5,1.12-1.1,1.12c-.65,0-1.22-.52-1.22-1.39S.41,.74,1.12,.12c.08-.08,.19-.12,.31-.12Zm2.7,0c.26,0,.48,.22,.48,.47,0,.14-.06,.26-.16,.36-.29,.25-.54,.59-.62,.88,.05-.01,.16-.04,.28-.04,.52,0,.92,.4,.92,.98s-.5,1.12-1.09,1.12c-.65,0-1.24-.52-1.24-1.39S3.11,.74,3.83,.12c.08-.08,.18-.12,.3-.12Z"/>
           </g>
@@ -47,13 +47,13 @@ layout: layouts/base.njk
   </section>
 {% endif %}
 <section class="grid grid-cols-section-slim lg:grid-cols-section bg-white">
-  <div class="col-start-2">
+  <div class="col-start-2 space-y-12 md:space-y-24">
     {% for detail in details %}
-      <div class="flex items-center gap-12 even:flex-row-reverse mb-24">
-        <div class="basis-5/12">
+      <div class="flex flex-col md:flex-row items-center gap-6 md:gap-12 md:even:flex-row-reverse pb-10 last:pb-0 md:pb-0 border-b border-slate-200 border-solid last:border-none md:border-none">
+        <div class="md:basis-5/12">
           <img src="{{detail.img}}" alt="detail.imgAlt" class="rounded shadow-lg">
         </div>
-        <div class="basis-7/12 space-y-3">
+        <div class="md:basis-7/12 space-y-3">
           <h3 class="text-2xl">{{detail.title}}</h3>
           <p>
             {{detail.text | safe}}
@@ -63,7 +63,7 @@ layout: layouts/base.njk
     {% endfor %}
   </div>
 </section>
-<section class="relative bg-pink-500 h-[640px] -mt-24 overflow-hidden">
+<section class="relative bg-pink-500 lg:h-[640px] overflow-hidden">
   {%- from 'macros/divide.njk' import divide %}
   {{ divide({text: "top-0"}, { text: "fill-pink-500" }, { text: "fill-white" }, {text: "rotate-0"}) }} 
   <img src="{{eyecatchImg}}" alt="{{mainImgAlt}}" class="w-full">

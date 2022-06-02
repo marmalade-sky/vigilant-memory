@@ -12,12 +12,11 @@ details: [
   { 
     img: https://placeimg.com/640/425/computer, 
     title: Custom illustrations & design,
-    text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   { 
     img: https://placeimg.com/640/425/computer, 
-    title: Lighhtweight & smart front-end,
+    title: Lightweight & smart front-end,
     text: "Fermentum posuere urna nec tincidunt. Mattis enim ut tellus elementum sagittis vitae et. Quisque id diam vel quam elementum pulvinar etiam non. Dictumst vestibulum rhoncus est pellentesque. Curabitur vitae nunc sed velit dignissim sodales ut. Dignissim suspendisse in est ante in nibh mauris cursus. A cras semper auctor neque vitae. Et tortor at risus viverra adipiscing at in."
   },
   { 
