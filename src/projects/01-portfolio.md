@@ -4,7 +4,7 @@ featured: true
 roles: ["Design", "Illustration", "Front-End Development", "Deployment"]
 mainImg: https://placeimg.com/640/480/computer
 mainImgAlt: This is a test
-eyecatchImg: https://placeimg.com/2400/1200/computer
+eyecatchImg: https://placeimg.com/640/640/computer
 description: "Suspendisse vitae dignissim tortor, vel mollis eros. Proin in tortor quis urna lacinia imperdiet. Praesent laoreet vel turpis quis hendrerit. Nulla viverra tristique turpis a mattis. Integer hendrerit nisi ac mattis ultrices."
 quote: "Approaching its 25th anniversary, OPO reached out to us during a pandemic at a time when social distancing was in force and classical music, an industry that thrives on people coming together, was facing an unprecedented and uphill challenge to return to its former ways. The visual brand identity and web experience were seen as fundamental components to address to help reduce the pressure of these stifling external market forces."
 

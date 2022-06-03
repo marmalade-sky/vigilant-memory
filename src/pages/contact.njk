@@ -2,3 +2,49 @@
 title: Contact
 order: 3
 ---
+<div class="relative w-full h-[calc(100vh-var(--heading-height))] grid grid-cols-1 lg:grid-cols-2 items-stretch overflow-hidden">
+  <img src="{{illustrationSrc}}/standing-with-computer.svg" class="hidden lg:block absolute h-5/6 -bottom-8 left-1/2 -translate-x-1/2" /> 
+  <div class="flex bg-slate-900 lg:pl-24 lg:pr-48 items-center">
+    <div class="lg:pt-12">
+      <h2 class="text-3xl text-adorn-3 text-slate-200 mb-4">For recruiters...</h2>
+      <p class="text-base text-slate-200 mb-6">I am open to new full-time opportunities where I can truly make a difference with a diverse design and front-end skillset. If you have a role for consideration, let's set up a time to talk!</p>
+      <ul class="flex gap-6">
+        {% for item in static.social %}
+          {% if (item.type == 'recruit') %}
+            <li>
+                <a href="{{item.url}}" class="social" target="_blank">
+                  <svg id="{{item.name}}_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="{{item.viewbox}}" class="h-8">
+                    <g id="{{item.name}}_Group">
+                      <path id="{{item.name}}_Path" d="{{item.d}}" class="{{item.name | lower}} fill-slate-200"/>
+                    </g>
+                  </svg>
+                </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="flex bg-slate-100 lg:pr-24 lg:pl-48 items-center">
+    <div class="lg:pt-12">
+      <h2 class="text-3xl  text-adorn-1 mb-4">For collaborators...</h2>
+      <p class="text-base mb-6">Do you have a fun site idea? Or maybe you're looking for a sounding board to weigh in on your next innovative design. Let's sync up! I'm especially interested in collaboration with full-stack developers.</p>
+      <ul class="flex gap-4">
+        {% for item in static.social %}
+          {% if (item.type == 'collab') %}
+            <li>
+              <a href="{{item.url}}" class="social" target="_blank">
+                <svg id="{{item.name}}_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="{{item.viewbox}}" class="h-8">
+                  <g id="{{item.name}}_Group">
+                      <path id="{{item.name}}_Path" d="{{item.d}}" class="{{item.name | lower}} fill-slate-900"/>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+  </div>
+</div>

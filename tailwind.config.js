@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{njk,md}'],
+  content: ['./src/**/*.{njk,md,json}'],
   // transform: {
   //   md: (content) => {
   //     return remark().process(content)
@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     fontFamily: {
       'primary': ['Poppins', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
-      'secondary': ['Work Sans', 'Roboto Condensed', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif']
+      'secondary': ['Work Sans', 'Roboto Condensed', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+      'comic': ['Permanent Marker', 'Roboto Condensed', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif']
     },
     extend: {
       screens: {
