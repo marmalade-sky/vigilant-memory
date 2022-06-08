@@ -6,10 +6,10 @@
     <ul class="flex justify-center gap-6">
       {% for item in static.social %}
         <li>
-          <a href="{{item.url}}" class="group">
+          <a href="{{item.url}}" class="social">
             <svg id="{{item.name}}_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="{{item.viewbox}}" class="h-8">
               <g id="{{item.name}}_Group">
-                <path id="{{item.name}}_Path" d="{{item.d}}" class="fill-slate-200 group-hover:fill-blue-500"/>
+                <path id="{{item.name}}_Path" d="{{item.d}}" class="{{item.name | lower}} fill-slate-200"/>
               </g>
             </svg>
           </a>

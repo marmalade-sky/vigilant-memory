@@ -1,13 +1,13 @@
 <ul class="flex justify-end gap-6">
   {% for item in static.social %}
     <li>
-    <a href="{{item.url}}" class="social" target="_blank">
-      <svg id="{{item.name}}_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="{{item.viewbox}}" class="h-5">
-        <g id="{{item.name}}_Group">
-          <path id="{{item.name}}_Path" d="{{item.d}}" class="{{item.name | lower}} fill-slate-800"/>
-        </g>
-      </svg>
-    </a>
-  </li>
+      <a href="{{item.url}}" class="social" target="_blank">
+        <svg id="{{item.name}}_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="{{item.viewbox}}" class="h-5">
+          <g id="{{item.name}}_Group">
+            <path id="{{item.name}}_Path" d="{{item.d}}" class="{{item.name | lower}} fill-slate-800"/>
+          </g>
+        </svg>
+      </a>
+    </li>
   {% endfor %}
 </ul>

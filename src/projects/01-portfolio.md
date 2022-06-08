@@ -1,34 +1,37 @@
 ---
-title: Personal Portfolio
+title: UI/UX Portfolio
 featured: true
-roles: ["Design", "Illustration", "Front-End Development", "Deployment"]
-mainImg: https://placeimg.com/640/480/computer
-mainImgAlt: This is a test
-eyecatchImg: https://placeimg.com/640/640/computer
-description: "Suspendisse vitae dignissim tortor, vel mollis eros. Proin in tortor quis urna lacinia imperdiet. Praesent laoreet vel turpis quis hendrerit. Nulla viverra tristique turpis a mattis. Integer hendrerit nisi ac mattis ultrices."
-quote: "Approaching its 25th anniversary, OPO reached out to us during a pandemic at a time when social distancing was in force and classical music, an industry that thrives on people coming together, was facing an unprecedented and uphill challenge to return to its former ways. The visual brand identity and web experience were seen as fundamental components to address to help reduce the pressure of these stifling external market forces."
+roles: ["Illustration", "Design", "Copywriting", "Front-End Development"]
+mainImg: /assets/img/01-portfolio-01.jpg
+mainImgAlt: My personal design portfolio as seen in a laptop.
+eyecatchImg: /assets/img/01-portfolio-06.jpg
+description: "A fun, breezy, bespoke portfolio site created using Design Thinking principles, custom illustration and iconography, and built with Jamstack architecture to deliver a joyful, lightweight experience."
+quote: "I wanted a fun, breezy, beautful site that was lightweight and easy to maintain. It reflects who I am as a person and in the work that I do. Reaching out and connecting with the innate creativity in others is special. It's something that generic social hubs cannot provide. There is so much power and satisfaction online exploration. There is power in finding and consuming the content you want, rather than blindly relying on what is served to you via an often exploitative algorithm."
 
 details: [
   { 
-    img: https://placeimg.com/640/425/computer, 
-    title: Custom illustrations & design,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    img: /assets/img/01-portfolio-02.jpg, 
+    title: Built on Design Thinking principles,
+    text: "After empathetically understanding the challenges and defining what I envisioned this portfolio to be if I couldn't include NDA-protected work, I began the ideation phase. This included UX/UI portfolio research, rough wireframe sketches, and copy drafting. Afterwards, I began prototyping design concepts in Adobe XD and getting feedback from designers in my network on which designs they preferred and why."
   },
   { 
-    img: https://placeimg.com/640/425/computer, 
-    title: Lightweight & smart front-end,
-    text: "Fermentum posuere urna nec tincidunt. Mattis enim ut tellus elementum sagittis vitae et. Quisque id diam vel quam elementum pulvinar etiam non. Dictumst vestibulum rhoncus est pellentesque. Curabitur vitae nunc sed velit dignissim sodales ut. Dignissim suspendisse in est ante in nibh mauris cursus. A cras semper auctor neque vitae. Et tortor at risus viverra adipiscing at in."
+    img: /assets/img/01-portfolio-03.jpg, 
+    title: Prototyping designs,
+    text: "After testing an initial design that included superfulous content that wasn't well received (turns out no one really cares about the books I'm reading), I went back and created two additional designs that focused more on the work I was doing and the art I was creating rather than the content I was consuming."
   },
   { 
-    img: https://placeimg.com/640/425/computer, 
-    title: Easy to deploy,
-    text: "Ultrices dui sapien eget mi proin sed libero enim sed. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Vestibulum lectus mauris ultrices eros in cursus. Duis ut diam quam nulla porttitor massa id neque aliquam. Ipsum faucibus vitae aliquet nec ullamcorper. Lacinia at quis risus sed vulputate odio. "
+    img: /assets/img/01-portfolio-04.png, 
+    title: Custom iconography & illustration,
+    text: "Inviting, playful, and friendly imagery in a carefully chosen color palette is central to this site. It brings humanity and warmth to the ones and zeros of digital art. Every vector-based icon and illustration was hand-crafted in illustrator and scales beautifully on any size device."
+  },
+  { 
+    img: /assets/img/01-portfolio-05.png, 
+    title: A lightweight Jamstack site,
+    text: "It's important that this site is lightweight, easy to maintain, and without friction in its use. That means taking just as much care with the code as I do the visual design. Built as a Jamstack site, this portfolio delivers dynamic content with a pre-built front end and leverages the static site generator Eleventy, the Tailwind CSS utility library, Netlify, and the Dribbble API."
   }
 ]
 ---
 
-Suspendisse vitae dignissim tortor, vel mollis eros. Proin in tortor quis urna lacinia imperdiet. Praesent laoreet vel turpis quis hendrerit. Nulla viverra tristique turpis a mattis. Integer hendrerit nisi ac mattis ultrices. 
+In an oversaturated market of UX/UI designers, my goal is to create a charming and memorable bespoke portfolio site for independent passion projects since I am unable to publicly share past professional work with NDA-protections. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I take this as a challenge to showcase the boundless potential in what I can do creatively for myself and in collaboration with friends, fellow designers, and my community. It is my passion to make the apps we use and the sites visit simple, engaging, and enjoyable.
