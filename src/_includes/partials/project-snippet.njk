@@ -1,6 +1,6 @@
 <div class="space-y-4">
   <a href="{{project.url}}">
-    <img src="{{project.data.mainImg}}" class="w-full rounded shadow-lg" alt="{{project.data.mainImageAlt}}" />
+    <img src="{{imgSrc}}/{{project.data.mainImg}}" class="w-full rounded shadow-lg" alt="{{project.data.mainImageAlt}}" />
   </a>
   {% if (project.data.featured == true) %}
     <div class="flex flex-wrap gap-3">

@@ -23,8 +23,11 @@ layout: layouts/base.njk
         </ul>
       </div>
     </div>
-    <div class="flex items-center justify-center">
-      <img src="{{mainImg}}" alt="mainImgAlt" class="rounded shadow-lg" />
+    <div class="relative flex items-center justify-center">
+      <img src="{{imgSrc}}/{{mainImg}}" alt="{{mainImgAlt}}" class="rounded shadow-lg" />
+      {% if link.length > 0 %}
+        <a href="{{link}}" class="absolute right-3 bottom-3 btn-f">{{btnText}}</a>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -51,7 +54,7 @@ layout: layouts/base.njk
     {% for detail in details %}
       <div class="flex flex-col md:flex-row items-center gap-6 md:gap-12 md:even:flex-row-reverse pb-10 last:pb-0 md:pb-0 border-b border-slate-200 border-solid last:border-none md:border-none">
         <div class="md:basis-5/12">
-          <img src="{{detail.img}}" alt="detail.imgAlt" class="rounded shadow-lg">
+          <img src="{{imgSrc}}/{{detail.img}}" alt="{{detail.imgAlt}}" class="rounded shadow-lg">
         </div>
         <div class="md:basis-7/12 space-y-3">
           <h3 class="text-2xl">{{detail.title}}</h3>
@@ -63,8 +66,8 @@ layout: layouts/base.njk
     {% endfor %}
   </div>
 </section>
-<section class="relative bg-pink-500 lg:h-[640px] overflow-hidden">
+<section class="relative bg-pink-500 2xl:h-[640px] overflow-hidden">
   {%- from 'macros/divide.njk' import divide %}
   {{ divide({text: "top-0"}, { text: "fill-pink-500" }, { text: "fill-white" }, {text: "rotate-0"}) }} 
-  <img src="{{eyecatchImg}}" alt="{{mainImgAlt}}" class="w-full">
+  <img src="{{imgSrc}}/{{eyecatchImg}}" alt="{{mainImgAlt}}" class="w-full">
 </section>

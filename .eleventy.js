@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addGlobalData("illustrationSrc", "/assets/svg/illustration");
   eleventyConfig.addGlobalData("iconSrc", "/assets/svg/icons");
   eleventyConfig.addGlobalData("shapeSrc", "/assets/svg/shapes");
-  eleventyConfig.addGlobalData("img", "/assets/img");
+  eleventyConfig.addGlobalData("imgSrc", "/assets/img");
 
   eleventyConfig.addCollection("navigation", function (collection) {
     return collection.getFilteredByTag("pages").sort((a, b) => {
