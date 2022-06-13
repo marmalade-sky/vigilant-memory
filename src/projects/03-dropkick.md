@@ -1,11 +1,11 @@
 ---
 title: Dropkick Clothing
-featured: true
+featured: false
 roles: ["Mood Boarding", "Design", "Information Architecture"]
 mainImg: 03-dropkick-01.jpg
 mainImgAlt: Dropkick clothing concept in a laptop mockup.
 eyecatchImg: 03-dropkick-05.jpg
-description: "A design concept for an OOAK vintage and upcycled clothing site. Dropkick specializes in grunge and industrial aesthetic clothing drops that call back to the 1990s."
+description: "A design concept for a OOAK vintage and upcycled clothing site. Dropkick specializes in grunge and industrial aesthetic clothing drops that call back to the 1990s."
 link: https://xd.adobe.com/view/730a29d1-89b8-4eca-94a4-fe8235d883a2-2659/
 btnText: View XD File
 
@@ -31,7 +31,7 @@ details: [
 ]
 ---
 
-Dropkick clothing is a storefront concept targeting young adults, age 18-29, who are looking for one-of-a-kind vintage and upcycled clothing. The collections are organized into curated, thematic drops for the easy purchase of multiple pieces. Customers may also browse by clothing type to buy one-off items from any collection.
+Dropkick is a storefront concept targeting young adults, age 18-29, who are looking for one-of-a-kind vintage and upcycled clothing. The collections are organized into curated, thematic drops for the easy purchase of multiple pieces. Customers may also browse by clothing type to buy one-off items from any collection.
 
 Dropkick needed to have both a professional look but also grunge aesthetic appeal. To explore how this combination would work, mood boarding was done before the design phase started.
 

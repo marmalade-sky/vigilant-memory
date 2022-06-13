@@ -11,9 +11,6 @@
   }
   body {
     @apply font-primary leading-6;
-    @media (3xl) {
-      color: red!important
-    }
   }
 
   h1, h2, h3, h4, h5, h6 {
