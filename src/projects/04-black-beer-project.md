@@ -1,11 +1,12 @@
 ---
-title: Dropkick Clothing
+title: The Black Beer Project
 featured: false
-roles: ["Mood Boarding", "Design", "Information Architecture"]
-mainImg: 03-dropkick-01.jpg
+notready: true
+roles: ["Design", "Front-End Development"]
+mainImg: 04-black-beer-project-01.jpg
 mainImgAlt: Dropkick clothing concept in a laptop mockup.
 eyecatchImg: 03-dropkick-05.jpg
-description: "A design concept for a OOAK vintage and upcycled clothing site. Dropkick specializes in grunge and industrial aesthetic clothing drops that call back to the 1990s."
+description: "A WordPress theme revamp for a project whose mission is to elevate visibility of African Americans in the beer industry. This endeavor is lead by NWI designer Rahsaan Taylor."
 resources: [
   {
     type: xd,

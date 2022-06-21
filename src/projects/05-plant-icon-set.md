@@ -1,11 +1,12 @@
 ---
-title: Dropkick Clothing
+title: Houseplant Icon Set
 featured: false
-roles: ["Mood Boarding", "Design", "Information Architecture"]
-mainImg: 03-dropkick-01.jpg
+notready: true
+roles: ["Design", "Front-End Development"]
+mainImg: 05-plant-icon-set-01.png
 mainImgAlt: Dropkick clothing concept in a laptop mockup.
 eyecatchImg: 03-dropkick-05.jpg
-description: "A design concept for a OOAK vintage and upcycled clothing site. Dropkick specializes in grunge and industrial aesthetic clothing drops that call back to the 1990s."
+description: "A minimal and cute nine-icon set featuring a wide variety of houseplants. These icons are perfect for use in illustrations, personal websites or blogs."
 resources: [
   {
     type: xd,

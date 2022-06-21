@@ -8,26 +8,35 @@ layout: layouts/base.njk
         <h1 class="text-4xl text-adorn-1">
           {{title}}
         </h1>
-        <p class="text-base">
+        <div class="text-base space-y-3">
           {{content | safe}}
-        </p>
-      </div>
+        </div>
+      </div> 
       <div class="space-y-3">
         <h2 class="text-2xl">
           Project Roles
         </h2>
-        <ul class="text-base space-y-1">
+        <ul class="text-base">
           {% for role in roles %}
             <li>{{role}}</li>
           {% endfor %}
         </ul>
       </div>
+      <div class="space-y-3"> 
+        <h3 class="text-xl font-bold">
+            Links &amp; Files
+        </h3>
+        <div class="flex gap-3">
+          {% for item in resources %}
+            <a href="{{item.url}}" target="_blank">
+              <img src="{{iconSrc}}/tools/{{item.type}}.svg" alt="{{item.type | capitalize}}" title="{{item.type | capitalize}}" class="h-9 md:h-7">
+            </a>
+          {% endfor %}
+        </div>  
+      </div> 
     </div>
-    <div class="relative flex items-center justify-center">
+    <div class="flex items-center justify-center">
       <img src="{{imgSrc}}/{{mainImg}}" alt="{{mainImgAlt}}" class="rounded shadow-lg" />
-      {% if link.length > 0 %}
-        <a href="{{link}}" class="absolute right-3 bottom-3 btn-f">{{btnText}}</a>
-      {% endif %}
     </div>
   </div>
 </section>

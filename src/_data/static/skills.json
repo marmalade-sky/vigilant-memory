@@ -31,7 +31,7 @@
     "name": "Technical",
     "description": "I use technology that makes sense for each project and strive for as little bloat as possible. I love working with full-stack engineers.",
     "heading": "Languages",
-    "list": ["HTML", "Nunjucks", "CSS", "Sass", "JavaScript"],
+    "list": ["HTML", "CSS/Sass", "JavaScript", "NPM", "Nunjucks"],
     "icons": [
       {
         "name": "Visual Studio",
