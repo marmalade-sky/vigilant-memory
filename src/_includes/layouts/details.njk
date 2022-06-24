@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <section class="grid grid-cols-section-slim lg:grid-cols-section bg-slate-100">
   <div class="grid grid-flow-row-dense md:grid-flow-row-auto lg:grid-cols-2 col-start-2 col-span-1 gap-16 md:gap-12">
-    <div class="row-start-2 md:row-start-1 space-y-6">
+    <div class="row-start-2 lg:row-start-1 space-y-6">
       <div class="space-y-3">
         <h1 class="text-4xl text-adorn-1">
           {{title}}
@@ -35,8 +35,8 @@ layout: layouts/base.njk
         </div>  
       </div> 
     </div>
-    <div class="flex items-center justify-center">
-      <img src="{{imgSrc}}/{{mainImg}}" alt="{{mainImgAlt}}" class="rounded shadow-lg" />
+    <div class="flex items-start order-1 xl:items-center xl:justify-center">
+      <img src="{{imgSrc}}/{{mainImg}}" alt="{{mainImgAlt}}" class="w-full rounded shadow-lg lg:w-auto" />
     </div>
   </div>
 </section>

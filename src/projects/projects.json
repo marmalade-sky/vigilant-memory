@@ -1,4 +1,5 @@
 {
   "layout": "layouts/details.njk",
-  "tags": "projects"
+  "tags": "projects",
+  "permalink": "/{{ page.filePathStem }}.html"
 }

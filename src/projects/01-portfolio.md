@@ -1,7 +1,7 @@
 ---
 title: UI/UX Portfolio
 featured: true
-roles: ["Copywriting", "Design",  "Front-End Development", "Illustration"]
+roles: ["Design",  "Front-End Development", "Illustration"]
 mainImg: 01-portfolio-01.jpg
 mainImgAlt: My personal design portfolio as seen in a laptop.
 eyecatchImg: 01-portfolio-06.jpg
