@@ -6,7 +6,7 @@ mainImg: 01-portfolio-01.jpg
 mainImgAlt: My personal design portfolio as seen in a laptop.
 eyecatchImg: 01-portfolio-06.jpg
 description: "A fun, breezy, bespoke portfolio site created using Design Thinking principles, custom illustration and iconography, and built with Jamstack architecture to deliver a joyful, lightweight experience."
-quote: "I wanted a fun, breezy, beautful site that was lightweight and easy to maintain. It reflects who I am as a person and in the work that I do. Reaching out and connecting with the innate creativity in others is special. It's something that generic social hubs cannot provide. There is so much power and satisfaction online exploration. There is power in finding and consuming the content you want, rather than blindly relying on what is served to you via an often exploitative algorithm."
+quote: "I wanted a fun, breezy, beautful site that was lightweight and easy to maintain. It reflects who I am as a person and in the work that I do. Reaching out and connecting with the creative spark in others is special. It's something that generic social hubs cannot provide. There is so much power and satisfaction in online exploration. There's power in finding and consuming the content you want, rather than blindly relying on what is served to you via often exploitative algorithms."
 resources: [
   {
     type: xd,
@@ -23,7 +23,7 @@ details: [
     img: 01-portfolio-02.jpg, 
     imgAlt: "Notebook of wireframes.",
     title: "Built on Design Thinking principles",
-    text: "Journaling helps me bring designs to life. For me, this is the beginning of the ideation phase. Here I begin UX/UI portfolio research, rough wireframe sketches, and copy drafting. Afterwards, I start prototyping design concepts in Adobe XD and solicit feedback from designers in my network on which designs they preferred and why."
+    text: "Journaling helps bring designs to life. For me, this is the beginning of the ideation phase. Here I begin UX/UI portfolio research, rough wireframe sketches, and copy drafting. Afterwards, I start prototyping design concepts in Adobe XD and solicit feedback from designers in my network on which designs they preferred and why."
   },
   { 
     img: 01-portfolio-03.jpg,
@@ -35,7 +35,7 @@ details: [
     img: 01-portfolio-04.png, 
     imgAlt: "Custom hobby icons and illustrations.",
     title: "Custom iconography & illustration",
-    text: "Inviting, playful, and friendly imagery in a carefully chosen color palette is central to this site. It brings humanity and warmth to the ones and zeros of digital art. Every vector-based icon and illustration is hand-crafted in illustrator and scales beautifully on any size device."
+    text: "Inviting, playful, and friendly imagery in a carefully chosen color palette is central to this site. It brings humanity and warmth to the ones and zeros of digital art. Every vector-based icon and illustration is hand-crafted in Adobe Illustrator and scales beautifully on any size device."
   },
   { 
     img: 01-portfolio-05.png,
