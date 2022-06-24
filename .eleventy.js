@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css/");
   
   eleventyConfig.addGlobalData("illustrationSrc", "/assets/svg/illustration");
+  eleventyConfig.addGlobalData("faviconSrc", "/assets/favicons");
   eleventyConfig.addGlobalData("iconSrc", "/assets/svg/icons");
   eleventyConfig.addGlobalData("shapeSrc", "/assets/svg/shapes");
   eleventyConfig.addGlobalData("imgSrc", "/assets/img");
