@@ -23,13 +23,13 @@ details: [
     img: 01-portfolio-02.jpg, 
     imgAlt: "Notebook of wireframes.",
     title: "Built on Design Thinking principles",
-    text: "Journaling helps bring designs to life. For me, this is the beginning of the ideation phase. Here I begin UX/UI portfolio research, rough wireframe sketches, and copy drafting. Afterwards, I start prototyping design concepts in Adobe XD and solicit feedback from designers in my network on which designs they preferred and why."
+    text: "Journaling helps bring designs to life. For me, this is the beginning of the ideation phase. Here I begin UX/UI portfolio research, rough wireframe sketches, and copy drafting. Afterwards, I started prototyping design concepts in Adobe XD and solicited feedback from designers in my network on which designs they preferred and why."
   },
   { 
     img: 01-portfolio-03.jpg,
     imgAlt: "Unused prototype designs.", 
     title: "Prototyping designs",
-    text: "After testing an initial designs that included superfulous content that wasn't well received (turns out no one really cares about the books I'm reading), I go back and create two additional designs that focus more on the work I'm doing and the art I'm creating rather than the content I'm consuming."
+    text: "After testing an initial design that included superfluous content that wasn't well received (turns out no one really cares about the books I'm reading), I go back and create two additional designs that focus more on the work I'm doing and the art I'm creating rather than the content I'm consuming."
   },
   { 
     img: 01-portfolio-04.png, 

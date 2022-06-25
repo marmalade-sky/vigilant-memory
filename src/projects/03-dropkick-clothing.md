@@ -24,7 +24,7 @@ details: [
     img: 03-dropkick-04.jpg, 
     imgAlt: "Texture tiles",
     title: "Exploring organic texture",
-    text: "The initial round of design includs further texture exploration to be used as photograph overlays and section dividers. Despite being organic in nature, these assets will need to be converted into vector shapes in order to scale correctly on a variety of screen sizes and devices."
+    text: "The initial round of design includes further texture exploration to be used as photograph overlays and section dividers. Despite being organic in nature, these assets will need to be converted into vector shapes in order to scale correctly on a variety of screen sizes and devices."
   },
   { 
     img: 03-dropkick-03.jpg,
