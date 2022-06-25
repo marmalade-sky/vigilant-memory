@@ -10,7 +10,7 @@ quote: "I've always wanted to create a beer review site, but I knew that it had 
 resources: [
   {
     type: website,
-    url: https://improved-broccoli.netlify.app/
+    url: https://liquid-love.netlify.app/
   },
   {
     type: figma,
@@ -44,18 +44,18 @@ details: [
     img: 02-liquid-love-07.jpg, 
     imgAlt: "Liquid Love on a laptop, tablet, and phone",
     title: "An awesome experience for all devices",
-    text: "When creating sites and web apps, it's important that all experiences are great great ones. Whether you're on a desktop, laptop, tablet, or phone, visitors will have an easy time browsing."
+    text: "When creating sites and web apps, it's important that all experiences are great ones. Whether you're on a desktop, laptop, tablet, or phone, visitors will have a trouble-free time browsing."
   },
   { 
     img: 02-liquid-love-05.jpg
     , 
     imgAlt: "Custom logo design",
     title: "Custom logo design",
-    text: "The cherry on top is a lighthearted logo with hand-drawn embellishments. This pairs beautifully with any beer review! It also adds a warm and friendly touch to the digital photography. Cheers to all the enthusiasts out there!"
+    text: "The cherry on top is a lighthearted logo with hand-drawn embellishments. This pairs beautifully with any beer review! It also adds a warm and friendly touch to all the large-format photography. Cheers to all the enthusiasts out there!"
   },
 
 ]
 ---
-I like beer. This is probably one of the first things you will learn about me, and in my humble opinion, Chicago is home to some of the best breweries in the country. It only made sense to create a site that will record and catalog all the beers I enjoy.
+I like beer. This is probably one of the first things you will learn about me, and in my humble opinion, Chicago is home to some of the best breweries in the country. It only made sense to create a place that will record and catalog all the beers I enjoy.
 
-I needed a site that could take one file and serve it in a number of ways: a full page review, an item in a beer style collection, and in areas that highlight only my top go-to brews. Satatic site generators to the rescue! If you have time, take a peek and <a href="https://improved-broccoli.netlify.app/" class="text-pink-500 hover:underline hover:underline-offset-4" target="_blank">see if our beer tastes match</a>.
+I needed a site that could take one file and serve it in a number of ways: a full page review, an item in a beer style collection, and in areas that highlight my top go-to brews. Static site generators to the rescue! If you have time, take a peek and <a href="https://liquid-love.netlify.app/" class="text-pink-500 hover:underline hover:underline-offset-4" target="_blank">see if our beer tastes match</a>.

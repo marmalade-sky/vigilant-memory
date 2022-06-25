@@ -18,7 +18,7 @@ details: [
     img: 03-dropkick-02.jpg, 
     imgAlt: "Mood board overview and color palette.",
     title: "Mood boards set the tone",
-    text: "Creating a mood board or style tile is especially helpful when building a brand concept from scratch. This includes definiting the brand mission, target audience, and descriptors that tell a story of what the brand and all its associated collateral should be, including the digital storefront."
+    text: "Creating a mood board or style tile is especially helpful when building a brand concept from scratch. This includes defining the brand mission, target audience, and descriptors that tell a story of what the brand and all its associated collateral should be, including the digital storefront."
   },
     { 
     img: 03-dropkick-04.jpg, 
@@ -35,7 +35,7 @@ details: [
 ]
 ---
 
-Dropkick is a storefront concept targeting young adults, age 18-29, who are looking for one-of-a-kind vintage and upcycled clothing. The collections are organized into curated, thematic drops for the easy purchase of multiple pieces. Customers may also browse by clothing type to buy one-off items from any collection.
+Dropkick is a storefront concept targeting young adults, ages 18-29, who are looking for one-of-a-kind vintage and upcycled clothing. The collections are organized into curated, thematic drops for the easy purchase of multiple pieces. Customers may also browse by clothing type to buy one-off items from any collection.
 
 Dropkick needed to have both a professional look but also grunge aesthetic appeal. To explore how this combination would work, mood boarding was done before the design phase started.
 

@@ -6,7 +6,7 @@ mainImg: 01-portfolio-01.jpg
 mainImgAlt: My personal design portfolio as seen in a laptop.
 eyecatchImg: 01-portfolio-06.jpg
 description: "A fun, breezy, bespoke portfolio site created using Design Thinking principles, custom illustration and iconography, and built with Jamstack architecture to deliver a joyful, lightweight experience."
-quote: "I wanted a fun, breezy, beautful site that was lightweight and easy to maintain. It reflects who I am as a person and in the work that I do. Reaching out and connecting with the creative spark in others is special. It's something that generic social hubs cannot provide. There is so much power and satisfaction in online exploration. There's power in finding and consuming the content you want, rather than blindly relying on what is served to you via often exploitative algorithms."
+quote: "I wanted a fun, breezy, beautiful site that was lightweight and easy to maintain. It reflects who I am as a person and in the work that I do. Reaching out and connecting with the creative spark in others is special. It's something that generic social hubs cannot provide. There is so much power and satisfaction in online exploration. There's power in finding and consuming the content you want, rather than blindly relying on what is served to you via often exploitative algorithms. "
 resources: [
   {
     type: xd,
