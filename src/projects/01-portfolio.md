@@ -46,6 +46,6 @@ details: [
 ]
 ---
 
-In an oversaturated market of UX/UI designers, my goal is to create a memorable, bespoke portfolio site for independent passion projects, since I am unable to publicly share past professional work with NDA-protections. 
+In an oversaturated market of UX/UI designers, my goal is to create a memorable, bespoke portfolio site for independent passion projects, since I am unable to share past professional work that is not public-facing. 
 
 I take this as a challenge to showcase the boundless potential in what I can do creatively for myself and in collaboration with friends, fellow designers, and my community. It is my passion to make the apps we use and the sites visit simple, engaging, and enjoyable.
